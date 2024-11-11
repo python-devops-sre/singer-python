@@ -5,11 +5,12 @@ description = "Singer.io utility library"
 authors = ["Stitch"]
 license = "Apache 2.0"
 readme = "README.md"
+package-mode = true
 
 [tool.poetry.dependencies]
 python = "^3.12"
 pytz = "^2024.2"
-jsonschema = "4.23.0"
+jsonschema = "^4.23.0"
 simplejson = "^3.19.3"
 python-dateutil = "^2.9.0.post0"
 backoff = "^2.2.1"
